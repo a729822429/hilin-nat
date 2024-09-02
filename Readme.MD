@@ -27,8 +27,7 @@
 - **JDK21** ： 当前最新的LTS版本
 - **maven** ： 项目管理及自动构建工具
 - **vertx-core** ： 网络框架，本项目用来创建网络客户端、服务器，并全局使用该框架提供的EventBus
-- **vertx-web** ： 提供对外api，为什么不用springboot?用springboot还怎么吹nb......
-- **spring-boot** ：这个只要是javaer应该都知道吧。本项目仅作为中间件的客户端工具使用，包括但不限于mysql、redis等
+- **spring-boot** ：这个只要是javaer应该都知道吧。
 - **mysql** ： 最流行的关系型数据库
 - **redis** ： 最流行的基于内存的kv存储系统
 

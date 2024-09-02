@@ -22,18 +22,5 @@ public class NatApplication implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) {
-        for (int i = 0; i < 1000; i++) {
-            int finalI = i;
-            executor.execute(()->{
-                ProxyVO proxy = new ProxyVO()
-                        .setId(finalI)
-                        .setType(1)
-                        .setLocalAddr("0.0.0.0")
-                        .setLocalPort(10000 + finalI)
-                        .setRemoteAddr("192.168.1.124")
-                        .setRemotePort(11080);
-                ProxyServer.startProxy(proxy);
-            });
-        }
     }
 }

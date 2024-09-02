@@ -19,6 +19,7 @@
         <module>hilin-nat-core</module>
         <module>hilin-nat-start</module>
         <module>hilin-nat-server</module>
+        <module>hilin-nat-web</module>
     </modules>
 
     <properties>
@@ -78,6 +79,11 @@
             <dependency>
                 <groupId>icu.hilin</groupId>
                 <artifactId>hilin-nat-server</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>icu.hilin</groupId>
+                <artifactId>hilin-nat-web</artifactId>
                 <version>1.0.0</version>
             </dependency>
         </dependencies>

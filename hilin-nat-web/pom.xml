@@ -7,16 +7,23 @@
         <groupId>icu.hilin</groupId>
         <artifactId>hilin-nat</artifactId>
         <version>1.0.0</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>hilin-nat-start</artifactId>
-
+    <artifactId>hilin-nat-web</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>icu.hilin</groupId>
-            <artifactId>hilin-nat-web</artifactId>
+            <artifactId>hilin-nat-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
     </dependencies>
+
 </project>
